@@ -1,5 +1,6 @@
 // src/App.jsx
 import React, { useState } from "react";
+import profileImg from "./assets/profile.webp";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -185,7 +186,7 @@ export default function App() {
               <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-emerald-400 via-cyan-400 to-sky-500 blur-md opacity-70" />
               <div className="relative h-40 w-40 md:h-48 md:w-48 rounded-full border border-slate-800 bg-slate-900/80 overflow-hidden shadow-xl shadow-emerald-500/10">
                 <img
-                  src="/profile.webp"
+                  src={profileImg}
                   alt="Abdukodir"
                   className="h-full w-full object-cover"
                 />
